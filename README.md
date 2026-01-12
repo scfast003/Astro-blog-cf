@@ -54,7 +54,7 @@ npm run dev
 
 ### 部署到Cloudflare Pages
 
-1. Clone 这个仓库。
+1. Fork 这个仓库。
 2. 登录 Cloudflare Dashboard > Workers 和 Pages > 创建应用程序 > 下面小字Pages Get Started > Connect to Git。
 3. 选择你的仓库。
 4. **构建设置 (Build Settings)**：

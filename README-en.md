@@ -52,7 +52,7 @@ npm run dev
 
 ### Deploy to Cloudflare Pages
 
-1.  Clone this repository.
+1.  Fork this repository.
 2.  Log in to Cloudflare Dashboard > Workers & Pages > Create application > Pages (Get Started) > Connect to Git.
 3.  Select your repository.
 4.  **Build Settings**:
