@@ -32,8 +32,8 @@ Based on the [astro-paper](https://github.com/satnaing/astro-paper) theme, refac
 Clone this repository and install dependencies:
 
 ```bash
-git clone https://github.com/t0saki/AstroPages-Bilingual.git
-cd AstroPages-Bilingual
+git clone https://github.com/scfast003/Astro-blog-cf.git
+cd Astro-blog-cf
 npm install
 ```
 
