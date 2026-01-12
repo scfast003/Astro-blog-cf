@@ -83,7 +83,7 @@ export type TranslationKey = keyof typeof ui[typeof defaultLang];
 
 export function useTranslations(lang: Lang) {
   return function t(key: TranslationKey): string {
-    return ui[lang]?.[key] || ui[defaultLang][key];
+    return ui[lang][key];
   };
 }
 
