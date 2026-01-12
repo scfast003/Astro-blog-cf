@@ -1,6 +1,5 @@
 export const languages = {
   zh: "中文",
-  en: "English",
 } as const;
 
 export const defaultLang = "zh" as const;
@@ -77,76 +76,6 @@ export const ui = {
     
     // Language
     "lang.switch": "切换语言",
-  },
-  en: {
-    // Navigation
-    "nav.posts": "Posts",
-    "nav.tags": "Tags",
-    "nav.about": "About",
-    "nav.archives": "Archives",
-    "nav.search": "Search",
-    "nav.skipToContent": "Skip to content",
-    "nav.home": "Home",
-    "nav.goBack": "Go back",
-    "nav.searchDesc": "Search any article ...",
-    "nav.archivesDesc": "All the articles I've archived.",
-
-    // Months
-    "month.1": "January",
-    "month.2": "February",
-    "month.3": "March",
-    "month.4": "April",
-    "month.5": "May",
-    "month.6": "June",
-    "month.7": "July",
-    "month.8": "August",
-    "month.9": "September",
-    "month.10": "October",
-    "month.11": "November",
-    "month.12": "December",
-    
-    // Home page hero
-    "hero.greeting": "Hello",
-    "hero.description": "A minimal, responsive, accessible and SEO-friendly Astro blog theme. Light and dark mode supported with customizable color schemes.",
-    "hero.cta": "Read the blog posts or check",
-    "hero.socialLinks": "Social Links:",
-    
-    // Sections
-    "section.featured": "Featured",
-    "section.recentPosts": "Recent Posts",
-    "button.allPosts": "All Posts",
-    
-    // Post details
-    "post.previous": "Previous Post",
-    "post.next": "Next Post",
-    "post.shareOn": "Share this post on:",
-    "post.backToTop": "Back To Top",
-    "post.updated": "Updated:",
-    "post.editPage": "Edit page",
-    
-    // Pages
-    "page.posts": "Posts",
-    "page.postsDesc": "All the articles I've posted.",
-    "page.tags": "Tags",
-    "page.tagsDesc": "All the tags used in posts.",
-    "page.tagPrefix": "Tag:",
-    "page.tagDesc": "All the articles with the tag \"{tag}\".",
-    "page.about": "About",
-    "page.pageNum": "page {num}",
-    
-    // Footer
-    "footer.copyright": "Copyright © {year}",
-    "footer.allRights": "All rights reserved.",
-    
-    // 404 Page
-    "error.pageNotFound": "Page Not Found",
-    "error.goHome": "Go back home",
-    
-    // Theme
-    "theme.toggle": "Toggles light & dark",
-    
-    // Language
-    "lang.switch": "Switch language",
   },
 } as const;
 
