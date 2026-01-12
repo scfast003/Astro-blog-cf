@@ -6,7 +6,6 @@ import IconArchive from "@/assets/icons/IconArchive.svg";
 import IconSunHigh from "@/assets/icons/IconSunHigh.svg";
 import IconMenuDeep from "@/assets/icons/IconMenuDeep.svg";
 import LinkButton from "./LinkButton.astro";
-import LanguageSwitcher from "./LanguageSwitcher.astro";
 import { SITE } from "@/config";
 import { useTranslations, type Lang } from "@/i18n/ui";
 
@@ -153,9 +152,6 @@ const homePath = `/${lang}/`;
             </li>
           )
         }
-        <li class="col-span-1 flex items-center justify-center">
-          <LanguageSwitcher lang={lang} />
-        </li>
       </ul>
     </nav>
   </div>

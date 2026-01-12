@@ -19,12 +19,12 @@ import { useTranslations, type Lang } from "@/i18n/ui";
 type Props = {
   post: CollectionEntry<"blog">;
   posts: CollectionEntry<"blog">[];
-  lang?: "zh" | "en";
+  lang?: Lang;
 };
 
 const { post, posts, lang: propLang } = Astro.props;
 // Extract lang from post ID if not provided
-const lang = propLang || (post.id.startsWith("zh/") ? "zh" : "en") as Lang;
+const lang = propLang || "zh" as Lang;
 const t = useTranslations(lang);
 
 const {

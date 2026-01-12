@@ -14,8 +14,8 @@ import { useTranslations, type Lang } from "@/i18n/ui";
 export const getStaticPaths = (async ({ paginate }) => {
   const allPosts = await getCollection("blog", ({ data }) => !data.draft);
   
-  // Generate paths for each language
-  const languages = ["zh", "en"];
+  // Generate paths for Chinese only
+  const languages = ["zh"];
   return languages.flatMap(lang => {
     const langPosts = allPosts.filter(({ id }) => id.startsWith(`${lang}/`));
     const sortedPosts = getSortedPosts(langPosts);
