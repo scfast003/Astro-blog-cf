@@ -11,7 +11,7 @@ type Props = {
   lang?: Lang;
 };
 
-const { hideEditPost, post, class: className = "", lang = "en" } = Astro.props;
+const { hideEditPost, post, class: className = "", lang = "zh" } = Astro.props;
 const t = useTranslations(lang);
 
 const href = `${SITE.editPost.url}${post.filePath}`;

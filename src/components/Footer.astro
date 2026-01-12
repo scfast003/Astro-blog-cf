@@ -10,7 +10,7 @@ type Props = {
   lang?: Lang;
 } & HTMLAttributes<"footer">;
 
-const { noMarginTop = false, class: className, lang = "en", ...attrs } = Astro.props;
+const { noMarginTop = false, class: className, lang = "zh", ...attrs } = Astro.props;
 const t = useTranslations(lang);
 
 const copyrightText = t("footer.copyright").replace("{year}", String(currentYear));

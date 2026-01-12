@@ -9,7 +9,7 @@ type ArrayTitle = { pageTitle: [string, string]; titleTransition: string };
 type Props = (StringTitle | ArrayTitle) & { pageDesc?: string; lang?: Lang };
 
 const { props } = Astro;
-const lang = (props as { lang?: Lang }).lang || "en";
+const lang = (props as { lang?: Lang }).lang || "zh";
 
 const backUrl = SITE.showBackButton ? Astro.url.pathname : "/";
 ---

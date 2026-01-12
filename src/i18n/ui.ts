@@ -10,7 +10,7 @@ export const ui = {
   zh: {
     // Navigation
     "nav.posts": "文章",
-    "nav.tags": "标签",
+    "nav.tags": "导航",
     "nav.about": "关于",
     "nav.archives": "归档",
     "nav.search": "搜索",
@@ -56,8 +56,8 @@ export const ui = {
     // Pages
     "page.posts": "文章",
     "page.postsDesc": "所有发布的文章",
-    "page.tags": "标签",
-    "page.tagsDesc": "所有使用的标签",
+    "page.tags": "导航",
+    "page.tagsDesc": "收藏的网址导航",
     "page.tagPrefix": "标签：",
     "page.tagDesc": "包含「{tag}」标签的所有文章",
     "page.about": "关于",
